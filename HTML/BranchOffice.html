@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Restaurant-BranchOffice</title>
+
+     <!--call style .ccs-->
+     <link rel="stylesheet" href="../CSS/BranchOffice.css" />
+     <link rel="shortcut icon" href="../IMAGES/IconPage.png" />
+        
+    </head>
+
+    <body class="background">
+
+        <script src="../JS/BranchOffice.js"></script>
+
+        <header class="header">
+            <nav>
+                <a class="amain" href="../Index.html">Restaurant - Main</a>
+                <a class="arecipes" href="./Recipes.html">Restaurant - Recipes</a>
+                <a class="alogin" href="./CreateAccount.html">Restaurant - Log in</a>
+            </nav>
+        </header>
+
+
+        
+            <form name="formone" onsubmit="return validateemptyfields()" method="post">
+                <div class="form">
+                <fieldset class="fieldsetone">
+                    <legend class="legend"><strong>Get in contact with us</strong></legend>    
+                    <div class="group">
+                        <label class="label">Your e-mail: <br/><input name="boxmail" type="text" size="40" placeholder="Ej: mail@example.com"></label><br/>
+                    </div>          
+                    
+                    <div class="group">
+                        <label class="label">Your name: <br/><input type="text" name="boxname" size="40" placeholder="Name"></label><br/>
+                    </div>
+                    
+                    <div class="group">
+                        <label class="label">Your city: <br/><select name="listcity">
+                            <option></option>
+                            <option>Bogotá</option>
+                            <option>Calí</option>
+                            <option>Medellín</option>
+                        </select>
+                        </label>
+                    </div>
+
+                    <input type="submit" name="buttondone" value="Done" class="button"><br/>  
+                </fieldset>
+                </div>
+            </form>
+
+
+        <div class="divtwo">
+
+            <!--create table-->
+            <table>
+                <!--create new row-->
+                <tr>
+                    <!--create header-->
+                    <th class="th">City</th>
+                    <!--create cell date-->
+                    <td class="td">Bogotá</td>
+                    <td class="td">Ibagué</td>
+                    <td class="td">Calí</td>
+                    <td class="td">Medellín</td>
+                </tr>
+
+                <!--create new row-->
+                <tr>
+                    <!--create header-->
+                    <th class="th">Sector</th>
+                    <!--create cell date-->
+                    <td class="td">South,<br/>Occidente</td>
+                    <td class="td">North</td>
+                    <td class="td">Northeast,<br/>South</td>
+                    <td class="td">South,<br/>North,<br/>Southeastern,<br/>West</td>
+                </tr>
+
+                <!--create new row-->
+                <tr>
+                    <!--create header-->
+                    <th class="th">Schedule</th>
+                    <!--create cell date-->
+                    <td class="td">Thursday to Sunday<br/>Since 11:00<br/>Until 23:00</td>
+                    <td class="td">North</td>
+                    <td class="td">Nororiente, Sur</td>
+                    <td class="td">Sur, North, Suroriente, Occidente</td>
+                </tr>
+
+                <!--create new row-->
+                <tr>
+                    <!--create header-->
+                    <th class="th">Reservation service</th>
+                    <!--create cell date-->
+                    <td class="td">Yes</td>
+                    <td class="td">No</td>
+                    <td class="td">No</td>
+                    <td class="td">Yes</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="divone">
+            <fieldset class="fieldsettwo">
+                <legend class="legend"><strong>Biosafety protocols</strong></legend>
+                    <ul>
+                        <li>Gloves</li>
+                        <li>Face mask</li>
+                        <li>Taking temperature</li>
+                        <li>Hand washing</li>
+
+                    </ul>
+
+                    <section>
+                        <p>Implement actions to ensure the continuity of activities and comprehensive protection of workers and other people who are present in the
+                            facilities or workplaces</p>
+                    </section>
+            </fieldset>
+        </div>
+
+    </body>
+</html>

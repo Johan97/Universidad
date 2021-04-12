@@ -1,0 +1,107 @@
+/*body {
+    font-family: 'Roboto';
+    background: #4568DC;
+    background: linear-gradient(to right, #60FAFF, #4568DC);
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+#header{
+    background-image: url(../IMAGES/Open.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    margin: 1.5%;
+    padding: 3.8%;
+    height: 40%;
+    width: 84.9%;
+    position: absolute;
+    top: 0%;
+    left: 2.7%;    
+}
+
+form{
+    background-color: blanchedalmond;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.form{
+    position: absolute;
+    left: 5%;
+    top: 105%;
+    width: 90%;
+    margin: auto;
+}
+
+.footer{
+    background-color: chocolate;
+    margin: 1.6%;
+    padding: 3.8%;
+    height: 0.1%;
+    width: 84.9%;
+    position: absolute;
+    top: 88.5%;
+    left: 2.6%;
+}
+
+#pmain{
+    color:blue;
+    font-size: 150%;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: right;
+}
+
+.psecond{
+    color:white;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+#pthird{
+    color: black;
+    font-size: 100%;
+    font-family: cursive; 
+    text-align: left;   
+}
+
+#th{
+    background-color: #4568DC;
+    border: 1px solid black;
+    width: 5%;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+#td{
+    background-color: white;
+    border: 5px solid #4568DC;
+    font-size: 18px;
+    width: 5%;
+    height: 30px;
+    text-align: center;
+}
+
+.tdone{
+    background-color: white;
+    border: 5px solid #60FAFF;
+    font-size: 18px;
+    width: 5%;
+    height: 30px;
+    text-align: right;
+}
+
+.tdtwo{
+    background-color: white;
+    border: 5px solid #60FAFF;
+    font-size: 18px;
+    width: 5%;
+    height: 30px;
+    text-align: left;
+}
+

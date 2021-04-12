@@ -1,0 +1,200 @@
+body {
+    font-family: 'Roboto';
+    background: #4568DC;
+    background: linear-gradient(to right, #60FAFF, #4568DC);
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --colorTextos: #49454567;
+}
+
+form{
+    background: blanchedalmond;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.form{
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    width: 100%;
+    margin: auto;
+}
+
+form .group{
+    position: relative;
+    margin: 45px ;
+}
+
+.header{
+    background-color: transparent;
+    border-bottom: 3px groove #60FAFF;
+    border-top: 3px groove #4568DC;
+    border-left: 3px groove #4568DC;
+    border-right: 3px groove #60FAFF;
+    opacity: 0.9;
+    margin: 1.5%;
+    padding: 3.8%;
+    height: 1.5%;
+    width: 84.9%;
+    position: absolute;
+    top: 0%;
+    left: 2.5%;    
+}
+
+
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus{ 
+    outline: none;
+    color: #5e5d5d;
+}
+
+.divone{
+    background-color: transparent;
+    opacity: 0.95;
+    height: 30%;
+    width: 44%;
+    position: absolute;
+    top: 83%;
+    left: 48.5%;
+}
+
+.divtwo{
+    background-color:transparent;
+    opacity: 0.8;
+    margin: 1.5%;
+    height: 47%;
+    width: 44%;
+    position: absolute;
+    top: 25%;
+    left: 47%;
+}
+
+
+.th{
+    border-bottom: 1px solid #4568DC;
+    background-color: #4568DC;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width: 5%;
+}
+
+.td{
+    border-bottom: 1px groove #60FAFF;
+    background-color:#60FAFF;
+    width: 5%;
+    height: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fieldsetone{
+    background: white;
+    box-shadow: 0px 0px 8px 20px rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    display: block;
+    margin-top: 5%;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    width: 25%;
+    border: 2px groove (internal value);
+    position: relative;
+    left: 5%;
+}
+
+.fieldsettwo{
+    display: block;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    width: 85%;
+    height: 83%;
+    border: 2px groove (internal value);
+    position: relative;
+    left: 5%;
+}
+
+.legend{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+    color: black;
+}
+
+.label{
+    font-family: cursive;
+    color: black;
+}
+
+.amain{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    color: #BA2957;
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+
+.arecipes{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    color: #BA2957;
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 39%;
+}
+
+.alogin{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    color: #BA2957;
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 72%;
+}
+
+.button{
+    font-family: 'roboto';
+    background: #484d61;
+    background: linear-gradient(to right, #60FAFF, #4568DC);
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  li{
+      font-family: 'Roboto';
+      font-size: 19px;
+  }
+  
+  section{
+      display: block;
+      position: absolute;
+      left: 42%;
+      top: 0%;
+      font-family: 'Roboto';
+      font-size: 19px;
+  }

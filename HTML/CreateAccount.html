@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant - Create account</title>
+
+    <link type="text/css" rel="stylesheet" href="../CSS/CreateAccount.css"/>
+    <link rel="shortcut icon" href="../IMAGES/IconPage.png" />
+</head>
+
+<body>
+
+    
+    
+    <!--Div title-->
+    <!--<div class="divmain">-->
+        <!--Form register-->
+        <form action="" id="formone" method="post">
+            <div class="form">
+
+            <!--header class="header">-->
+            <nav class="header">
+                <a class="amain" href="../Index.html">Restaurant - Main</a>
+                <a class="abranchoffice" href="./BranchOffice.html">Restaurant - BranchOffice</a>
+                <a class="arecipes" href="./Recipes.html">Restaurant - Recipes</a>
+            </nav>
+
+                <h1>User register</h1>
+                <!--Div box name-->
+                <div class="group">
+                    <input id="boxname" type="text" size="22" required/><span class="line"></span>
+                    <label>User Name:</label><br/>
+                </div>
+
+                <!--Div box mail-->
+                <div class="group">
+                    <input id="boxmail" type="email" size="22" required/><span class="line"></span>
+                    <label>E-mail</label><br/>
+                </div>
+
+                <!--Div box password-->
+                <div class="group">
+                    <input id="boxpass" type="password" size="22" required/><span class="line"></span>
+                    <label>Password</label><br/>
+                </div>
+
+                <!--Div box confirm password-->
+                <div class="group">
+                    <input id="boxconpass" type="password" size="22" required/><span class="line"></span>
+                    <label>Confirm password</label><br/>
+                </div>
+               
+                <!--Div button-->
+                    <button class="button" type="submit">I want to register</button>
+                    <p name="p"class="warning" id="warning"></p>                    
+
+            </div>
+  
+        </form>
+
+        <script src="../JS/CreateAccount.js"></script>
+</body>
+</html>

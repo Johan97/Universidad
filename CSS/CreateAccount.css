@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto';
+    background: #4568DC;
+    background: linear-gradient(to right, #60FAFF, #4568DC);
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --colorTextos: #49454567;
+}
+
+
+form{
+    background: whitesmoke;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .group{
+    position: relative;
+    margin: 45px ;
+}
+
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus{ 
+    outline: none;
+    color: #5e5d5d;
+}
+
+label{
+    transition: 0.5s ease all;
+    pointer-events: none;
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+
+}
+
+input:focus~label,
+input:valid~label{
+    top: -14px;
+    font-size: 12px;
+    color: #2196f3;
+}
+
+.line{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.line::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #60FAFF, #4568DC);
+    transition: 0.3s ease width;
+    left: 0;
+}
+
+input:focus~.line::before{
+    width: 100%;
+}
+
+.button{
+    font-family: 'roboto';
+    background: #484d61;
+    background: linear-gradient(to right, #60FAFF, #4568DC);
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+/*
+  efect button
+  .button:hover{
+    color: #1883ba;
+
+  }
+*/
+  .warning{
+      margin: auto;
+      width: 200px;
+      text-align: center;
+      padding-top: 20px;
+      color: red;
+  }
+
+  h1{
+      position: relative;
+      text-align: center;
+  }
+
+  .header{
+    position: absolute;
+    left: 5%;
+    margin: 1%;
+    padding: 3.8%;
+    height: 30%;
+    width: 14%;
+    background-color: transparent;
+    border-bottom: 3px groove #4568DC;
+    border-top: 3px groove #4568DC;
+    border-left: 3px groove #4568DC;
+    border-right: 3px groove #4568DC;
+    opacity: 0.9;    
+}
+
+.amain{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    color: #BA2957;
+    font-size: 20px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.abranchoffice{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    color: #BA2957;
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+.arecipes{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    color: #BA2957;
+    font-size: 20px;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
