@@ -136,26 +136,21 @@ input:focus~.line::before{
 .amain{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
     color: #BA2957;
-    font-size: 20px;
-    position: absolute;
-    top: 15%;
-    left: 5%;
+    font-size: 12px;
+    position: relative;
 }
 
 .abranchoffice{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
     color: #BA2957;
-    font-size: 20px;
-    position: absolute;
-    top: 45%;
-    left: 5%;
+    font-size: 12px;
+    position: relative;
+
 }
 
 .arecipes{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
     color: #BA2957;
-    font-size: 20px;
-    position: absolute;
-    top: 75%;
-    left: 5%;
+    font-size: 12px;
+    position: relative;
 }
